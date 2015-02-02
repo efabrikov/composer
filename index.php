@@ -17,7 +17,7 @@
 
         <script lang="javascript">
             $(document).ready(function () {
-                $('body').append('jqury work!');
+                $('body').append('jqury work 2!');
             });
         </script>
     </body>
