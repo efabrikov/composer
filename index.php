@@ -8,7 +8,7 @@
         <?php
         require_once 'vendor/autoload.php';
         echo 'php version - ' . phpversion() . '<br>';
-        echo 'ip class - ' . Novanova\Helpers\IP::getClientIp() . '<br>';
+        echo 'ip class from vendor - ' . Novanova\Helpers\IP::getClientIp() . '<br>';
         ?>
 
         <!-- The missing protocol means that it will match the current protocol, either http or https. If running locally, we use the local jQuery. -->
